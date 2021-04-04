@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Responsive Layout</title>
+<style>
+* {
+  box-sizing:border-box;
+}
+body {
+  background-color: white;
+  margin: 4px;
+}
+
+.leftheader {
+  background-color:forestgreen;
+  padding:0 20px;
+  float:left;
+  width:50%;
+  text-align: center;
+}
+
+.rightheader {
+  background-color:aqua;
+  padding:0 20px;
+  float:left;
+  width:50%;
+  text-align: center;
+}
+
+.column {
+  background-color: white;
+  padding: 320px;
+  float:left;
+  width:100%;
+  background-image: url('lion1.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+}
+
+.column1 {
+  background-color:lawngreen;
+  padding:40px;
+  float:left;
+  width:33.3333333333%;
+  text-align: center;
+}
+
+.column2 {
+  background-color:lawngreen;
+  padding:40px;
+  float:left;
+  width:33.3333333333%;
+  text-align: center;
+}
+
+.column3 {
+  background-color:lawngreen;
+  padding:40px;
+  float:left;
+  width:33.3333333333%;
+  text-align: center;
+}
+
+.footer {
+  background-color:lightgreen;
+  padding:20px;
+  float:left;
+  width:25%;
+  text-align: center;
+}
+
+.footer1 {
+  background-color:lightgreen;
+  padding:20px;
+  float:left;
+  width:25%;
+  text-align: center;
+}
+
+.footer2 {
+  background-color:lightgreen;
+  padding:20px;
+  float:left;
+  width:25%;
+  text-align: center;
+}
+.footer3 {
+  background-color:lightgreen;
+  padding:20px;
+  float:left;
+  width:25%;
+  text-align: center;
+}
+
+@media screen and (max-width:1024px) {
+  .leftheader, .rightheader, .column {
+    width:100%; 
+  }
+  
+@media screen and (max-width:768px) {
+  .column, .column1, .column2, .column3 {
+    width:100%; 
+}
+
+@media screen and (max-width:768px) {
+  .column, .footer, .footer1, .footer2, .footer3 {
+    width:50%; 
+ }
+  
+@media screen and (max-width:320px) {
+  .column, .footer, .footer1, .footer2, .footer3 {
+    width:100%; 
+  }
+}
+
+</style>
+</head>
+<body>
+
+<div class="leftheader">
+  <h1>Philippine: "Tourist Spots Headlines"</h1>
+</div>
+
+<div class="rightheader">
+  <h1>News: "The Beautiful Tourist Spots Around Baguio City"</h2>
+</div>
+
+<div class="column">
+<p></p>
+</div>
+
+<div class="column1">
+  <h1>Mines View Park</h1>
+  <img src="mp.jpg" style="width:400px;height:400px;">
+  <p>Mines View Park is an overlook park on the northeastern outskirts of Baguio in the Philippines.
+  Located on a land promontory 4 km from downtown Baguio, the park overlooks the mining town of Itogon, 
+  particularly the abandoned gold and copper mines of the Benguet Corporation, and offers a glimpse of the Amburayan Valley.</p>
+</div>
+
+<div class="column2">
+  <h1>Botanical Garden</h1>
+  <img src="bg.jpg" style="width:400px;height:400px;">
+  <p>Botanical garden, also called botanic garden, originally, a collection of living plants designed 
+  chiefly to illustrate relationships within plant groups. A display garden that concentrates on woody plants 
+  (shrubs and trees) is often referred to as an arboretum.</p>
+</div>
+
+<div class="column3">
+  <h1>Burnham Park</h1>
+  <img src="bh.jpg" style="width:400px;height:400px;">
+  <p>Burnham Park, officially known as the Burnham Park Reservation, is a historic urban park located in downtown Baguio, 
+  Philippines. It was designed by eponymous American architect and Baguio city planner, Daniel Burnham.</p>
+</div>
+<div class="footer">
+  <h1>About Baguio City:</h1>
+  <h3>What is Baguio city known for?</h3>
+  <p>Baguio, to many, is best known as the "Summer Capital of the Philippines", 
+  with its cool climate making this a spot to escape the chaotic scenes in Manila. 
+  The city is also home to tropical pine forests, lending the city the nickname "City of Pines".</p>
+  <h3>What is nice about Baguio City?</h3>
+  <p>Its chilly temperature, pine-dominated landscapes, and overall romantic atmosphere, 
+  this mountain city has attracted tourists especially in summer and the holidays like Christmas and New Year.
+  Although a highly urbanized city, Baguio retains some of its rustic charm in spots.</p>
+</div>
+
+<div class="footer1">
+  <h1>Baguio Events and Festivals</h1>
+  <h3>Panagbenga</h3>
+  <p>Baguio, as the City of Flowers is in full bloom with a month-long series of events highlighted by the 
+  Parade of Floats and Band and Streetdancing Competitions held on the last weekend of February. Highlights include 
+  landscape competitions, art exhibits, golf tournaments, flea markets and simply a whole lot of fun activities for 
+  tourists and residents alike.</p>
+  <h3>Silahis ng Pasko</h3>
+  <p>A series of Christmas activities of the City of Pines that focuses on the youth (which comprises about half of the 
+  city's population) with Christmas carol competitions called Himig ng Pasko, Share-a-Toy, sports tournaments and the like.</p>
+</div>
+
+<div class="footer2">
+  <h1>History of Baguio City</h1>
+  <p>Baguio was established as a hill station by the United States in 1900 at the site of an Ibaloi village known as Kafagway.
+  It was the United States' only hill station in Asia. Baguio is classified as a Highly-Urbanized City (HUC).</p>
+  <h3>Who Founded baguio City</h3>
+  <p>Daniel H. Burnham
+The American architect and urban planner Daniel H. Burnham designed the city. 
+The city got its name, however, from bag-iw meaning “moss” in Ibaloi – the native tongue of the Benguet province. 
+On September 1, 1909, the Americans declared Baguio a chartered city and the Summer Capital of the Philippines.</p>
+</div>
+
+<div class="footer3">
+  <h1>References</h1>
+  <p>https://guidetothephilippines.ph/articles/what-to-experience/baguio-city-tourist-spots</p>
+  <p>Wikepedia</p>
+</div>
+</body>
+</html>
